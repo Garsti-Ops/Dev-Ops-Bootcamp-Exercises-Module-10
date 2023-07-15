@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-java-app-configmap
 data:
-  dbServer: "mysql-secondary:3306"
+  dbServer: "mysql-primary"
   dbName: "db"
