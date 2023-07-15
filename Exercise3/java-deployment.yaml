@@ -18,6 +18,8 @@ spec:
         - name: my-java-app
           image: garstiops/garstiges-secret-repo:java-mysql-app-1.0
           imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
           env:
             - name: DB_USER
               valueFrom:
