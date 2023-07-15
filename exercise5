@@ -1,0 +1,1 @@
+helm install nginx-ingress-controller oci://ghcr.io/nginxinc/charts/nginx-ingress --version 0.18.0
