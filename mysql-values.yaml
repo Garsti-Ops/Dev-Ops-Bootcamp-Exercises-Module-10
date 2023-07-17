@@ -6,7 +6,6 @@ auth:
   password: my-pass
 
 secondary:
-  # 1 primary and 2 secondary replicas
   replicaCount: 2
   persistence:
     storageClass: standard
