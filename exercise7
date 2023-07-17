@@ -1,0 +1,1 @@
+kubectl port-forward phpmyadmin-service 8080:80
